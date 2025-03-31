@@ -1,0 +1,54 @@
+# Compiled source files
+*.hex
+*.elf
+*.bin
+*.o
+*.a
+*.out
+*.d
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Arquivos de compilação temporários
+build/
+dist/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+
+# Arquivos de teste, cobertura e cache
+*.coverage
+*.pytest_cache/
+*.tox/
+
+# Pasta de dependências e bibliotecas (caso existam)
+node_modules/
+bower_components/
+
+# Arquivos de configuração de ferramentas
+*.iml
+
+# Arquivos binários
+*.uf2
+
+# Arquivos específicos de alguns IDEs
+.idea/
+
+# Outros arquivos temporários
+*.bak
+*.tmp
+*.orig

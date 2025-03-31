@@ -1,23 +1,37 @@
-# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+# 🚀 **Projetos de Sistemas Embarcados - EmbarcaTech 2025**
 
-Autor: **(insira seu nome)**
+Bem-vindo(a) ao repositório que reúne os projetos desenvolvidos na **2ª Fase da Capacitação em Sistemas Embarcados** pela **Embarcatech**!
+<br>
+## 👨‍🎓 Autor
+**Davi Henrique Vieira Lima**
 
-Curso: Residência Tecnológica em Sistemas Embarcados
+[![GitHub](https://img.shields.io/badge/GitHub-davihvl-181717?style=flat&logo=github)](https://github.com/DaviHVL)
 
-Instituição: EmbarcaTech - HBr
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-davihvl-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davihvl)
+<br>
+## 📘 Curso
+**Residência Tecnológica em Sistemas Embarcados**
+<br>
+## 🏫 Instituição
+**EmbarcaTech - HBr**
 
-Campinas, março de 2025
+Brasília, março de 2025
+<br>
+## 🎯 Objetivo do Repositório
+Este repositório tem como objetivo apresentar e documentar os projetos desenvolvidos durante a 2ª Fase da Capacitação em Sistemas Embarcados promovida pela Embarcatech, evidenciando as habilidades técnicas adquiridas e os desafios superados ao longo do processo de aprendizado.
+<br>
+## 📁 Projetos Desenvolvidos
+                 
+🎲 [**Galton Board**](./projects/galton_board/)                         
+🎵 [**Sintetizador de Áudio**](./projects/sound_synth/)                          
+🤖 [**Robô Equilibrista**](./projects/balancing_robot/)         
+<br>
+## 🌐 Página do Projeto
+Para visualizar o site do projeto, acesse o [GitHub Pages do meu repositório]().
+<br>
+## 📌 Observação
+Para mais informações específicas sobre cada projeto, consulte o `README.md` específico de cada pasta.
+<br>
+## 📄 Licença
+GPL-3.0 license
 
----
-
-## Sobre este repositório
-
-Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas Embarcados, durante a etapa de residência.  
-
-Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e recursos visuais.
-
----
-
-## O que fazer com este arquivo
-
-Ao fazer o *fork* do repositório, o aluno está livre para modificar este arquivo como quiser dentro do seu próprio *fork*.
