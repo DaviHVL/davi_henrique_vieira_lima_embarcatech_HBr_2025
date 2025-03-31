@@ -27,7 +27,7 @@ Este repositório tem como objetivo apresentar e documentar os projetos desenvol
 🤖 [**Robô Equilibrista**](./projects/balancing_robot/)         
 <br>
 ## 🌐 Página do Projeto
-Para visualizar o site do projeto, acesse o [GitHub Pages do meu repositório]().
+Para visualizar o site do projeto, acesse o [GitHub Pages do meu repositório](https://davihvl.github.io/davi_henrique_vieira_lima_embarcatech_HBr_2025/).
 <br>
 ## 📌 Observação
 Para mais informações específicas sobre cada projeto, consulte o `README.md` específico de cada pasta.
