@@ -12,6 +12,7 @@ O projeto busca demonstrar na prática:
 - Registro de eventos durante janelas de tempo específicas.
 - Exibição dinâmica de informações em um display via comunicação I2C.
 <br>
+
 ## 🔁 Fluxo de Execução
 
 1. **Pressionando o Botão A:**
@@ -39,12 +40,14 @@ O projeto busca demonstrar na prática:
    - O contador de cliques é **zerado**.
    - O processo se repete.
 <br>
+
 ## 🧩 Componentes usados
 
 - 1x Raspberry Pi Pico W
 - 1x Display OLED SSD1306 (I2C)
 - 2x Push-Buttons
 <br>
+
 ## ⚡ Pinagem dos dispositivos
 
 | Componente       | Pino Pico | Função                |
@@ -54,6 +57,7 @@ O projeto busca demonstrar na prática:
 | Display OLED SDA | GPIO14    | Comunicação I2C        |
 | Display OLED SCL | GPIO15    | Comunicação I2C        |
 <br>
+
 ## 🧪 Como compilar e executar
 
 1. **Configuração inicial**  
@@ -67,5 +71,6 @@ O projeto busca demonstrar na prática:
 
 5. **Conecte o Pico via USB segurando o botão BOOTSEL**, monte o disco e copie o `.uf2`.
 <br>
+
 ## 📈 Resultados esperados ou observados
 É esperado o comportamento descrito em **🔁 Fluxo de Execução**
