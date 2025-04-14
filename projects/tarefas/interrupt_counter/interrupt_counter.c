@@ -23,6 +23,9 @@ const uint I2C_SCL = 15; // Pino SCL do I2C
 uint8_t ssd[ssd1306_buffer_length]; // Buffer do display OLED
 volatile bool update_display = true; // Flag para indicar se é necessário atualizar o display OLED
 
+static volatile absolute_time_t last_press_A = 0;
+static volatile absolute_time_t last_press_B = 0;
+
 // Funções
 
 // Função para configuração dos botões
@@ -55,13 +58,12 @@ void button_irq_handler(uint gpio, uint32_t events) {
     // Verifica se o botão A foi pressionado
     if (gpio == BUTTON_A){
         buttonA_pressed = true;
-        static absolute_time_t last_press = 0;
     
         // Debounce
-        if (absolute_time_diff_us(last_press, get_absolute_time()) < 100000) {     
+        if (absolute_time_diff_us(last_press_A, get_absolute_time()) < 200000) {     
             return;
         }
-        last_press = get_absolute_time();
+        last_press_A = get_absolute_time();
 
         if (timer_running) {
             cancel_repeating_timer(&timer); // Cancela timer se já estiver ativo
@@ -75,13 +77,12 @@ void button_irq_handler(uint gpio, uint32_t events) {
 
     // Verifica se o botão B foi pressionado, se o timer está zerado e se o timer está ativo
     if (gpio == BUTTON_B && time_passed != 0 && timer_running){
-        static absolute_time_t last_press = 0;
     
         // Debounce
-        if (absolute_time_diff_us(last_press, get_absolute_time()) < 100000) {
+        if (absolute_time_diff_us(last_press_B, get_absolute_time()) < 200000) {
             return;
         }
-        last_press = get_absolute_time();
+        last_press_B = get_absolute_time();
 
         num_pressed_buttonB++; // Incrementa contador do botão B
         update_display = true; 
