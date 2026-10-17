@@ -1,37 +1,36 @@
-# 🚀 **Projetos de Sistemas Embarcados - EmbarcaTech 2025**
+# 🚀 **Embedded Systems Projects - EmbarcaTech 2025**
 
-Bem-vindo(a) ao repositório que reúne os projetos desenvolvidos na **2ª Fase da Capacitação em Sistemas Embarcados** pela **Embarcatech**!
+Welcome to the repository gathering the projects developed during **Phase 2 of the Embedded Systems Training Program** by **EmbarcaTech**!
 <br>
-## 👨‍🎓 Autor
+## 👨‍🎓 Author
 **Davi Henrique Vieira Lima**
 
 [![GitHub](https://img.shields.io/badge/GitHub-davihvl-181717?style=flat&logo=github)](https://github.com/DaviHVL)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-davihvl-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davihvl)
 <br>
-## 📘 Curso
-**Residência Tecnológica em Sistemas Embarcados**
+## 📘 Course
+**Technological Residency in Embedded Systems**
 <br>
-## 🏫 Instituição
+## 🏫 Institution
 **EmbarcaTech - HBr**
 
-Brasília, março de 2025
+Brasília, March 2025
 <br>
-## 🎯 Objetivo do Repositório
-Este repositório tem como objetivo apresentar e documentar os projetos desenvolvidos durante a 2ª Fase da Capacitação em Sistemas Embarcados promovida pela Embarcatech, evidenciando as habilidades técnicas adquiridas e os desafios superados ao longo do processo de aprendizado.
+## 🎯 Repository Purpose
+The purpose of this repository is to showcase and document the projects developed during Phase 2 of the Embedded Systems Training Program hosted by EmbarcaTech, highlighting the technical skills acquired and the challenges overcome throughout the learning process.
 <br>
-## 📁 Projetos Desenvolvidos
-                 
-🎲 [**Galton Board**](./projects/galton_board/)                         
-🎵 [**Sintetizador de Áudio**](./projects/sound_synth/)                          
-🤖 [**Robô Equilibrista**](./projects/balancing_robot/)         
+## 📁 Developed Projects
+                  
+🎲 [**Galton Board**](./projects/galton_board/)                        
+🎵 [**Audio Synthesizer**](./projects/sound_synth/)                          
+🤖 [**Self-Balancing Robot**](./projects/balancing_robot/)         
 <br>
-## 🌐 Página do Projeto
-Para visualizar o site do projeto, acesse o [GitHub Pages do meu repositório](https://davihvl.github.io/davi_henrique_vieira_lima_embarcatech_HBr_2025/).
+## 🌐 Project Page
+To view the project website, visit [my repository's GitHub Pages](https://davihvl.github.io/davi_henrique_vieira_lima_embarcatech_HBr_2025/).
 <br>
-## 📌 Observação
-Para mais informações específicas sobre cada projeto, consulte o `README.md` específico de cada pasta.
+## 📌 Note
+For detailed information about each specific project, please refer to the `README.md` file located inside its respective directory.
 <br>
-## 📄 Licença
+## 📄 License
 GPL-3.0 license
-
